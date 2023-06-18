@@ -1,0 +1,13 @@
+---
+ansible_connection: ssh
+ansible_user: ansible
+
+hebergement: DP
+dns_zone: digitaleperformance.fr
+
+project_name: usagers
+service_name: usagers
+alias_name: usager
+wwwroot: /var/www/digitaleperformance/usagers
+SSLEngine: On
+
